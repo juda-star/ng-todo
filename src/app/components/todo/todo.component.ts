@@ -21,6 +21,7 @@ export class TodoComponent implements OnInit {
   ngOnInit(): void {}
 
   public onCompletedTodo(todo: ITodo): void {
+    this.todo.isCompleted = true;
     this.todoService.onTodoAction(todo.id, 'isCompleted');
   }
   public onArchiveTodo(): void {
