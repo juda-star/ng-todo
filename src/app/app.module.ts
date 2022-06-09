@@ -10,6 +10,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { TodoComponent } from './components/todo/todo.component';
 import { TodoContainerComponent } from './todo-container/todo-container.component';
 import { NewTodoComponent } from './components/new-todo/new-todo.component';
+import { CountDownComponent } from './components/count-down/count-down.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NewTodoComponent } from './components/new-todo/new-todo.component';
     HeaderComponent,
     TodoComponent,
     TodoContainerComponent,
-    NewTodoComponent
+    NewTodoComponent,
+    CountDownComponent
   ],
   imports: [
     BrowserModule,
